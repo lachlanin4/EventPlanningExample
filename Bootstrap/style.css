@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+*{
+    background-color: #192E3B;
+    color: black;
+}
+img{
+    width: 100%;
+}
+#title{
+color: #fff;
+font-size: xx-large;
+font-family: "Roboto";
+font-weight: 700;
+}
+.header{
+}

@@ -26,6 +26,7 @@
 }
 h1{
     color: white;
+    font-size: 80px;
 }
 h2{
         color: white;
@@ -39,12 +40,17 @@ h6{
 
 
 p{
-    color:black
+    color:white;
 }
 body{
-        background-color:  rgb(17, 32, 39);
+    background-image: var(--bs-gradient);
     }
-head, body{background-color: rgb(17, 32, 39)}.card{cursor: pointer}.hd{font-size: 25px;font-weight: 550}.card.hover, .card:hover{box-shadow: 0 10px 40px rgba(0, 0, 0, .2)}.img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}.card-title{font-weight: 600}button.focus, button:focus{outline: 0;box-shadow: none !important}.ft{margin-top: 25px}.chk{margin-bottom: 5px}.rck{margin-top: 20px;padding-bottom: 20px}
 
+head, body{background-color: #AD343E; background-image: var(--bs-gradient);}.card{cursor: pointer}.hd{font-size: 25px;font-weight: 550}.card.hover, .card:hover{box-shadow: 0 10px 40px rgba(0, 0, 0, .2)}.img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}.card-title{font-weight: 600}button.focus, button:focus{outline: 0;box-shadow: none !important}.ft{margin-top: 25px}.chk{margin-bottom: 5px}.rck{margin-top: 20px;padding-bottom: 20px}
+
+.bg-success {
+    --bs-bg-opacity: 0.5;
+    background-color: blue, var(--bs-bg-opacity) !important;
+  }
 
 
